@@ -1,11 +1,11 @@
 import express from 'express'
 import dotenv from 'dotenv'
-import { conectDB } from '../config/db'
-import taskRoutes from '../routes/taskRoutes'
+import { conectDB } from './config/db'
+import taskRoutes from './routes/taskRoutes'
 import swaggerUi from 'swagger-ui-express'
-import swaggerSpec from '../config/swagger'
+import swaggerSpec from './config/swagger'
 import cors from 'cors'
-import { corsConfig } from '../config/cors'
+import { corsConfig } from './config/cors'
 
 
 dotenv.config()

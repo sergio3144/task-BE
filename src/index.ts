@@ -1,4 +1,4 @@
-import server from './functions/server'
+import server from './server'
 import colors from 'colors'
 
 const port = process.env.PORT || 4000
